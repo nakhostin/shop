@@ -1,0 +1,13 @@
+version : 'v1.0.0'
+app : "shop"
+debug: true
+listener_port: 8221
+mongodb : "shop"
+mongo_host : "mongodb://localhost:27017/"
+allow_methods:
+  - POST
+  - GET
+  - PUT
+  - DELETE
+static_file_path : "static/template/"
+
